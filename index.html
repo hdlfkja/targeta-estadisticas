@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" as="font" crossorigin="crossorigin">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" as="font" crossorigin="crossorigin">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="preload" href="./css/normalize.css" as="style">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+  <main class="contenedor-flex">
+    <div class="contenedor">
+      <!-- <div class="imagen-header"></div> -->
+      <div class="imagen">
+        <div class="bg"></div>
+        <picture class="imagen-headers">
+          <source srcset="./img/image-header-desktop.jpg" type="image/jpg" media="(min-width:768px)">
+          <img src="./img/image-header-mobile.jpg" alt="" class="imagen-header">
+        </picture>
+      </div>
+
+      <section class="contenido">
+        <h1 class="contenido__titulo centar-texto">Get <span class="contenido__titulo--color">insights</span> that help your business grow.</h1>
+
+        <p class="contenido__parrafo centar-texto">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+          experience, and overall efficiency.</p>
+
+        <div class="informacion">
+          <div  class="informacion__centrar">
+            <p class="informacion__texto informacion__texto--color">10k+</p> 
+            <p class="informacion__texto informacion__texto--tamaño">companies</p>
+          </div>
+
+          <div class="informacion__centrar">
+            <p class="informacion__texto informacion__texto--color">314</p> 
+            <p class="informacion__texto informacion__texto--tamaño">templates</p>
+          </div>
+
+          <div class="informacion__centrar">
+            <p class="informacion__texto informacion__texto--color">12M+</p> 
+            <p class="informacion__texto informacion__texto--tamaño">queries</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+</body>
+</html>
